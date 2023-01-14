@@ -1,5 +1,5 @@
 p {
-  margin: 0px
+  margin: 0px;
 }
 
 .footer-link {
@@ -8,15 +8,106 @@ p {
 }
 
 .footer-link:hover {
-  color: #ff0000
+  color: #ff0000;
 }
 
 .footer {
   background: #d6d6d6;
-  padding: 8px
+  padding: 8px;
 }
 
-.page{
-  padding: 3% 15%;
+.page {
+  padding: 4% 15%;
   background: #f0f0f0;
 }
+
+/* text items */
+.tcenter {
+  text-align: center;
+  margin: 0px auto;
+}
+.title1 {
+  font-size: 40px;
+  font-weight: bold;
+  margin: 0px;
+  padding: 0px;
+}
+.title2 {
+  font-size: 34px;
+  font-weight: 500;
+  margin: 0px;
+  padding: 0px;
+  margin-top: -13px;
+}
+.title3 {
+  font-size: 24px;
+  font-weight: 500;
+  margin: 0px;
+  padding: 0px;
+  /* margin-top: -13px; */
+}
+
+/* text items */
+
+/* paragraphs */
+.leftPara {
+  font-size: 18px;
+  line-height: 140%;
+}
+/* paragraphs */
+
+/* buttons */
+.largeButton {
+  font-size: 18px;
+  padding: 2.5% 4%;
+  background: #000000;
+  color: #ffffff;
+  border-radius: 12px;
+  font-weight: 400;
+  transition: 0.7s;
+  text-align: center;
+  width: 250px;
+}
+.largeButton:hover {
+  background: #ffffff;
+  color: #000000;
+  border: 2px solid #000000;
+}
+.otpButton {
+  font-size: 18px;
+  padding: 2.5% 14%;
+  background: #000000b0;
+   border: 2px solid #000000b0;
+  color: #ffffff;
+  border-radius: 12px;
+  font-weight: 400;
+  transition: 0.7s;
+  text-align: center;
+  margin-left: 50px;
+  /* width: 250px; */
+}
+/* buttons */
+
+/* shadow box */
+.sideShadowBox {
+  width: 45%;
+  box-shadow: 0px 0px 10px #000000;
+  padding: 1.5% 3%;
+  border-radius: 20px;
+  background: #ffffff;
+}
+/* shadow box */
+
+/* login */
+.contactNoInputBox {
+  padding: 2% 7%;
+  border-radius: 20px;
+  border-color: #00000085;
+  margin-top: 0px;
+}
+.fieldName {
+  margin: 5px 0px;
+  margin-top: 8px;
+  font-size: 18px;
+}
+/* login */
