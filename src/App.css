@@ -22,15 +22,13 @@ p {
 }
 
 /* text items */
-.tcenter {
-  text-align: center;
-  margin: 0px auto;
-}
+
 .title1 {
   font-size: 40px;
   font-weight: bold;
   margin: 0px;
   padding: 0px;
+  font-family: 'Lexend', sans-serif;
 }
 .title2 {
   font-size: 34px;
@@ -54,7 +52,25 @@ p {
   font-size: 18px;
   line-height: 140%;
 }
+.tcenter {
+  text-align: center;
+  margin: 0px auto;
+}
+.justifyPara{
+  text-align: justify;
+  font-size: 18px;
+  padding-bottom: 2%;
+  line-height: 160%;
+  /* font-family: 'Nunito', sans-serif; */
+  
+}
 /* paragraphs */
+
+/* spaces */
+.innerSpace{
+  height: 40px;
+}
+/* spaces */
 
 /* buttons */
 .largeButton {
