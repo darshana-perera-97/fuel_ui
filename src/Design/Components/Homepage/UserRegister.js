@@ -14,7 +14,7 @@ export default function UserRegister() {
             sample text
             <br />
           </p>
-          <a href="/">
+          <a href="/register">
             <button className="largeButton">Get Register</button>
           </a>
         </div>
