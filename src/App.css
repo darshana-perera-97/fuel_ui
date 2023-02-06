@@ -28,6 +28,7 @@ p {
   font-weight: bold;
   margin: 0px;
   padding: 0px;
+  color: #5733ad;
   font-family: 'Lexend', sans-serif;
 }
 .title2 {
@@ -36,6 +37,8 @@ p {
   margin: 0px;
   padding: 0px;
   margin-top: -13px;
+  color: #805dd5;
+
 }
 .title3 {
   font-size: 24px;
@@ -76,24 +79,26 @@ p {
 .largeButton {
   font-size: 18px;
   padding: 2.5% 4%;
-  background: #000000;
   color: #ffffff;
   border-radius: 12px;
   font-weight: 400;
   transition: 0.7s;
   text-align: center;
   width: 250px;
+  background: #5733ad;
+  border: 2px solid #5733ad;
+
+
 }
 .largeButton:hover {
   background: #ffffff;
-  color: #000000;
-  border: 2px solid #000000;
+  color: #5733ad;
 }
 .otpButton {
   font-size: 18px;
   padding: 2.5% 14%;
-  background: #000000b0;
-   border: 2px solid #000000b0;
+  background: #805dd5;
+   border: 2px solid #805dd5;
   color: #ffffff;
   border-radius: 12px;
   font-weight: 400;
@@ -112,6 +117,14 @@ p {
   border-radius: 20px;
   background: #ffffff;
 }
+.sideShadowBoxfull {
+  width: 76%;
+  box-shadow: 0px 0px 10px #000000;
+  padding: 3% 6%;
+  border-radius: 20px;
+  background: #ffffff;
+  margin: 2% 12%;
+}
 /* shadow box */
 
 /* login */
@@ -127,3 +140,14 @@ p {
   font-size: 18px;
 }
 /* login */
+
+
+/* user page */
+.fieldText{
+  margin-bottom: 0px;
+  font-size: 19px;
+  font-weight: 500;
+  padding: 7% 0;
+  text-align: left;
+}
+/* user page */

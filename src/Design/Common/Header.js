@@ -8,12 +8,12 @@ function Header() {
   return (
     <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
       <Container>
-        <Navbar.Brand href="#home">Fuel-App</Navbar.Brand>
+        <Navbar.Brand href="/">Fuel-App</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto"></Nav>
           <Nav>
-            <Nav.Link href="#deets">
+            <Nav.Link href="/">
               <p
                 style={{
                   color: "white",
@@ -26,7 +26,7 @@ function Header() {
                 <ImHome3 />
               </p>
             </Nav.Link>
-            <Nav.Link eventKey={2} href="#memes">
+            <Nav.Link eventKey={2} href="/user">
               <p
                 style={{
                   color: "white",
