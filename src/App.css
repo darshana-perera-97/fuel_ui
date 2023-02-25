@@ -1,9 +1,13 @@
+/* 5733ad */
+/* 5733ad */
+/* 5733ad */
+
 p {
   margin: 0px;
 }
 
 .footer-link {
-  color: #0055ff;
+  color: #5733ad;
   transition: 0.5s;
 }
 
@@ -29,7 +33,7 @@ p {
   margin: 0px;
   padding: 0px;
   color: #5733ad;
-  font-family: 'Lexend', sans-serif;
+  font-family: "Lexend", sans-serif;
 }
 .title2 {
   font-size: 34px;
@@ -37,8 +41,7 @@ p {
   margin: 0px;
   padding: 0px;
   margin-top: -13px;
-  color: #805dd5;
-
+  color: #5733ad;
 }
 .title3 {
   font-size: 24px;
@@ -46,6 +49,46 @@ p {
   margin: 0px;
   padding: 0px;
   /* margin-top: -13px; */
+}
+.title4 {
+  font-size: 50px;
+  font-weight: bolder;
+  margin: 0px;
+  padding: 0px;
+  color: #5733ad;
+  font-family: "Lexend", sans-serif;
+  margin-top: -20px;
+}
+.title5 {
+  font-size: 30px;
+  font-weight: 500;
+  margin: 0px;
+  padding: 0px;
+  margin-top: -13px;
+  color: #5733ad;
+  opacity: 0.7;
+  margin-top: -10px;
+}
+.title6 {
+  font-size: 25px;
+  font-weight: 500;
+  margin: 0px;
+  padding: 0px;
+  margin-top: -13px;
+  color: #5733ad;
+  opacity: 0.7;
+  margin-top: -10px;
+}
+.title7 {
+  font-size: 20px;
+  font-weight: 500;
+  margin: 0px;
+  padding: 0px;
+  margin-top: -13px;
+  color: #5733ad;
+  opacity: 0.7;
+  margin-top: 0px;
+  margin-bottom: 10px;
 }
 
 /* text items */
@@ -59,18 +102,17 @@ p {
   text-align: center;
   margin: 0px auto;
 }
-.justifyPara{
+.justifyPara {
   text-align: justify;
   font-size: 18px;
   padding-bottom: 2%;
   line-height: 160%;
   /* font-family: 'Nunito', sans-serif; */
-  
 }
 /* paragraphs */
 
 /* spaces */
-.innerSpace{
+.innerSpace {
   height: 40px;
 }
 /* spaces */
@@ -87,8 +129,6 @@ p {
   width: 250px;
   background: #5733ad;
   border: 2px solid #5733ad;
-
-
 }
 .largeButton:hover {
   background: #ffffff;
@@ -97,8 +137,8 @@ p {
 .otpButton {
   font-size: 18px;
   padding: 2.5% 14%;
-  background: #805dd5;
-   border: 2px solid #805dd5;
+  background: #5733ad;
+  border: 2px solid #5733ad;
   color: #ffffff;
   border-radius: 12px;
   font-weight: 400;
@@ -106,6 +146,31 @@ p {
   text-align: center;
   margin-left: 50px;
   /* width: 250px; */
+}
+.smButton {
+  font-size: 18px;
+  padding: 2.5% 4%;
+  color: #ffffff;
+  border-radius: 12px;
+  font-weight: 400;
+  transition: 0.7s;
+  text-align: center;
+  width: 250px;
+  background: #5733ad;
+  border: 2px solid #5733ad;
+}
+.smButton2 {
+  font-size: 15px;
+  padding: 5px 0px;
+  color: #ffffff;
+  border-radius: 12px;
+  font-weight: 400;
+  transition: 0.7s;
+  text-align: center;
+  background: #5733ad;
+  border: 2px solid #5733ad;
+  margin-top: 13px;
+  width: 250px;
 }
 /* buttons */
 
@@ -134,6 +199,12 @@ p {
   border-color: #00000085;
   margin-top: 0px;
 }
+.otpinput {
+  padding: 2% 4%;
+  border-radius: 20px;
+  border-color: #5833ad70;
+  margin-top: 0px;
+}
 .fieldName {
   margin: 5px 0px;
   margin-top: 8px;
@@ -141,9 +212,8 @@ p {
 }
 /* login */
 
-
 /* user page */
-.fieldText{
+.fieldText {
   margin-bottom: 0px;
   font-size: 19px;
   font-weight: 500;
@@ -151,3 +221,72 @@ p {
   text-align: left;
 }
 /* user page */
+
+/* system login */
+
+.singleRegisterShaddowBox {
+  border: 2px solid #5733ad;
+  width: 27%;
+  padding: 4%;
+  text-align: center;
+  font-size: 30px;
+  border-radius: 20px;
+  box-shadow: 0px 0px 10px #5733ad49;
+  transition: 0.2s;
+  color: #5733ad;
+  font-weight: bold;
+  cursor: pointer;
+  padding-bottom: 12px;
+  margin-bottom: -50px;
+}
+.singleRegisterShaddowBox:hover {
+  box-shadow: 0px 0px 10px #5733ad;
+}
+/* system login */
+
+/* others */
+.space {
+  box-shadow: 0px 0px 10px #5733ad;
+  height: 50px;
+  width: 40px;
+  border-radius: 12px;
+}
+/* others */
+
+.white-box {
+  background: #ffffff;
+  margin: 2% 10%;
+  padding: 2% 5%;
+}
+.shadowBoxCenter {
+  width: 60%;
+  margin: 20px 20%;
+  border: 4px solid #5733ad;
+  border-radius: 20px;
+  padding: 50px 20px;
+}
+.inputBox {
+  padding: 5px 20px;
+  border-radius: 20px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 2px solid #5733ad;
+  box-shadow: 0px 0px 5px #5733ad;
+}
+.btn2 {
+  padding: 5px 20px;
+  border-radius: 20px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 2px solid #5733ad;
+  background: #5733ad;
+  text-align: center;
+  color: #ffffff;
+  font-weight: bold;
+  cursor: pointer;
+}
+.inputBox:focus {
+  box-shadow: 0px 0px 15px #5733ad;
+  border: 3px solid #5733ad;
+  background: #5833ad2f;
+}
