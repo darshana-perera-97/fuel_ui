@@ -285,6 +285,19 @@ p {
   font-weight: bold;
   cursor: pointer;
 }
+.btn2 {
+  margin: 40%;
+  padding: 5px 20px;
+  border-radius: 20px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  border: 2px solid #5733ad;
+  background: #5733ad;
+  text-align: center;
+  color: #ffffff;
+  font-weight: bold;
+  cursor: pointer;
+}
 .inputBox:focus {
   box-shadow: 0px 0px 15px #5733ad;
   border: 3px solid #5733ad;
