@@ -14,13 +14,13 @@ export default function UserLogin() {
             sample text
             <br />
           </p>
-          <a href="/">
+          <a href="/login">
             <button className="largeButton">Go to Login</button>
           </a>
         </div>
         <div className="sideShadowBox">
-          <p className="title3 tcenter">Login for System</p>
-          <div style={{ display: "flex",marginLeft:"20px" }}>
+          <p className="title3 tcenter">Login for System - User Login</p>
+          <div style={{ display: "flex", marginLeft: "20px" }}>
             <div>
               <p className="fieldName">Input Mobile Number</p>
               <div style={{ display: "flex" }}>
@@ -29,7 +29,7 @@ export default function UserLogin() {
                   className="contactNoInputBox"
                 />
                 <div>
-                  <a href="/">
+                  <a href="/userlogin">
                     <button className="otpButton">Continue</button>
                   </a>
                 </div>
